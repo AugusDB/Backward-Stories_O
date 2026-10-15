@@ -50,7 +50,16 @@ html, body {
 }
 
 .Cambiante{
+    width: 500px;
+    height: auto;
     float: left;
-    padding-right: 700px;
     text-align: justify;
+    margin: 2rem;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+
 }
