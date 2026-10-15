@@ -34,7 +34,9 @@ html, body {
 
 .nav-links {
     display: flex;
-    gap: 120px;
+    gap: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 
 .navbar a {
@@ -45,4 +47,10 @@ html, body {
 
 .navbar a:hover {
     color: #00bf8f;
+}
+
+.Cambiante{
+    float: left;
+    padding-right: 700px;
+    text-align: justify;
 }
