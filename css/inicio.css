@@ -172,3 +172,36 @@ html, body {
     opacity: 0.5;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.ondas{
+    width: 20px;
+    height: 20px;
+    filter: invert(0);
+    transition: filter 0.5s ease;
+}
+
+.music-bot{
+    display:flex;
+    gap:3px;
+    padding:5px;
+    align-items: center;
+    border-radius: 10px;
+    border: 0px;
+    margin-top:20px;
+    margin-left:20px;
+    transition: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #4dac76;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.music-bot:hover{
+    color:white;
+    background-color:#00491c;
+}
+
+
+.music-bot:hover .ondas{
+    filter:invert(1);
+}
