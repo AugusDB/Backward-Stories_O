@@ -38,7 +38,7 @@ html, body {
 
 .nav-links {
     display: flex;
-    gap: 90px;
+    gap: 40px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
@@ -110,6 +110,7 @@ html, body {
 }
 
 .Cambiante {
+    flex-wrap: wrap;
     width: calc(100% - 32px);
     max-width: 900px;
     margin: 16px;
@@ -135,4 +136,39 @@ html, body {
         width: 100%;
         height: auto;
     }
+}
+
+.Cambiante1{
+    text-align: center;
+        background: linear-gradient(
+        to right,
+        #050505,
+        #004e1e
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Domino{
+    background: linear-gradient(
+    to bottom,
+    #001307,
+    #000000
+    );
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Cambiante footer{
+    flex-basis: 100%;
+    opacity: 0.5;
+    font-family: Arial, Helvetica, sans-serif;
 }
