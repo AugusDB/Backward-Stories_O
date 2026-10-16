@@ -62,7 +62,7 @@ html, body {
     max-width: 900px;
     height: auto;
 
-    margin: 20px;
+    margin: 200px;
     padding: 20px;
 
     text-align: justify;
@@ -195,6 +195,7 @@ html, body {
     background-color: #4dac76;
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
+    cursor: pointer;
 }
 
 .music-bot:hover{
@@ -205,4 +206,47 @@ html, body {
 
 .music-bot:hover .ondas{
     filter:invert(1);
+}
+
+.base{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.Cambiante {
+    flex: 0 0 60%;
+    min-width: 0;
+    max-width: none;
+    box-sizing: border-box;
+    margin: 20px;
+    margin-right: 0px;
+}
+
+.nonchalant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    flex: 1;
+    min-width: 0;
+    background: rgba(242, 243, 242, 0.171);
+    margin: 20px;
+    margin-left: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 16px;
+    backdrop-filter: blur(15px);
+}
+
+.nonchalant h2{
+    text-align: center;
+}
+
+.gif {
+    width: 62.5%;
+    height: auto;
 }
