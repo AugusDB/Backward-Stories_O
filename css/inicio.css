@@ -181,6 +181,7 @@ html, body {
 }
 
 .music-bot{
+    float:left;
     display:flex;
     gap:3px;
     padding:5px;
